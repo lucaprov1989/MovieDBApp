@@ -1,0 +1,22 @@
+<div *ngIf="movie" class="col-xs-12 cardcont nopadding">
+
+	<div class="meta-data-container col-xs-12 col-md-8 push-md-4 col-lg-7 push-lg-5">
+		<h1>{{movie.original_title}}</h1>
+
+		<span class="tagline">{{movie.tagline}}</span>
+		<p>{{movie.overview}}</p>
+			<div class="additional-details">
+				<span class="genre-list">{{genresList}}</span>
+				<span class="production-list">{{productionList}}</span>
+					<div class="row nopadding release-details">
+						<div class="col-xs-6"> Original Release: <span class="meta-data">{{movie.release_date}}</span></div>
+						<div class="col-xs-6"> Running Time: <span class="meta-data">{{movie.runtime}} mins</span> </div>
+						<div class="col-xs-6"> Box Office: <span class="meta-data">{{revenue}}</span></div>
+						<div class="col-xs-6"> Vote Average: <span class="meta-data">{{vote}}</span></div>
+					</div>
+				</div>
+			</div>
+		<div class="poster-container nopadding col-xs-12 col-md-4 pull-md-8 col-lg-5 pull-lg-7 ">
+			<img id="postertest" class='poster' src={{posterIMG}}/>
+		</div>
+</div>

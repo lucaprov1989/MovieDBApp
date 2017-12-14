@@ -1,0 +1,50 @@
+
+
+/* app */
+#outer-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85) 15%, rgba(0, 0, 0, 0.2) 40%, rgba(0, 0, 0, 1) 90%);
+    background-attachment: fixed;
+    margin:0;
+}
+
+#app {
+    animation: fadein ease-out 1.4s;
+}
+
+footer {
+	padding: 30px 0;
+	float: left;
+	font-size: 0.9em;
+	text-align: center;;
+	width: 100%;
+	text-shadow: 1px 1px 1px black;
+}
+
+footer > span {
+	display: block;
+	padding: 0 0 10px;
+}
+
+footer >  i {
+	margin-right: 5px;
+}
+
+footer > span > a {
+    color: #343434;
+    transition:.7s;
+    padding: 8px;
+ }
+
+footer > span > a:hover  {
+	color:#00FC87;
+	transition:.7s;
+}
+
+footer > span > a:active {
+	color:#00FC87;
+	transition:.7s;
+}
+
+
+
+
